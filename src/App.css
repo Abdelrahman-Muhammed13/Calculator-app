@@ -1,0 +1,29 @@
+* {
+  font-family: sans-serif;
+}
+input,
+button {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.App {
+  margin-left: 20px;
+}
+input {
+  display: block;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+button {
+  border: 1px solid gray;
+  background: whitesmoke;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+button:nth-last-child(2),
+button:nth-last-child(1) {
+  background: tomato;
+  color: white;
+}
